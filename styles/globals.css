@@ -151,5 +151,5 @@ a {
 }
 
 .description {
-  @apply text-xl md:text-lg sm:text-base text-mainColor2
+  @apply lg:text-xl md:text-lg text-base text-mainColor2
 }

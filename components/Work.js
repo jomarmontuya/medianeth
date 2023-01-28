@@ -26,9 +26,9 @@ export default function Work() {
             <section className="bg-mainColor4 px-5">
                 <div className="text-white page-padding text-center">
                     <div>
-                        <h3 className="subtitle font-bold bg-[#0083FF] w-2/12 mx-auto py-2">-Our Work-</h3>
+                        <h3 className="subtitle font-bold bg-[#0083FF] w-2/4 md:w-2/12 mx-auto py-2">-Our Work-</h3>
                         <h2 className="my-5 title">Take a Look at Our Range of Services in Action</h2>
-                        <div className="grid grid-cols-3 gap-10">
+                        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-10">
                             {listItems}
                         </div>
                     </div>

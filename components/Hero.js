@@ -9,8 +9,8 @@ export default function Hero() {
     return (
         <>
             <section className="px-5 relative text-mainColor">
-                <Image src={vector} alt="Vector" className="md:absolute right-0 z-10 bottom-0"/>
-                <Image src={vector1} alt="Vector" className="md:absolute left-0 z-10 bottom-0"/>
+                <Image src={vector} alt="Vector" className="hidden md:absolute right-0 z-10 bottom-0"/>
+                <Image src={vector1} alt="Vector" className="hidden md:absolute left-0 z-10 bottom-0"/>
                 <div className="page-padding">
                     <div className="grid xl:grid-cols-2 gap-10">
                         <div className="flex xl:hidden justify-center">
