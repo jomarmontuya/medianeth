@@ -41,7 +41,7 @@ export default function OurService() {
             <h3 className="subtitle font-bold text-mainColor3">
               -Our Services-
             </h3>
-            <h2 className="my-5 title">
+            <h2 className="mt-5 mb-16 title">
               Take Your Business to the Next Level <br /> with Our Customized
               Web Solutions
             </h2>

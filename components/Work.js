@@ -27,8 +27,8 @@ export default function Work() {
                 <div className="text-white page-padding text-center">
                     <div>
                         <h3 className="subtitle font-bold bg-[#0083FF] w-2/4 md:w-2/12 mx-auto py-2">-Our Work-</h3>
-                        <h2 className="my-5 title">Take a Look at Our Range of Services in Action</h2>
-                        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-10">
+                        <h2 className="mt-5 mb-16 title">Take a Look at Our Range of Services in Action</h2>
+                        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-10 justify-center">
                             {listItems}
                         </div>
                     </div>
