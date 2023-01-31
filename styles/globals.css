@@ -8,3 +8,44 @@ html {
   font-family: "Outfit", sans-serif;
   scroll-behavior: smooth;
 }
+
+.bar1,
+.bar2,
+.bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #03215e;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+.change .bar2 {
+  opacity: 0;
+}
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.page-padding {
+  @apply container mx-auto py-10 md:py-20 lg:py-40
+}
+
+.hero-title {
+  @apply text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold
+}
+
+.subtitle {
+  @apply text-base md:text-lg lg:text-2xl
+}
+
+.title {
+  @apply text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold
+}
+
+.description {
+  @apply text-xl md:text-lg sm:text-base text-mainColor2
+}

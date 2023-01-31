@@ -8,18 +8,18 @@ import arrow from "../public/arrow1.png";
 export default function Hero() {
   return (
     <>
-      <section className="container mx-auto relative text-mainColor">
+      <section className="relative text-mainColor px-5">
         <Image
           src={vector}
           alt="Vector"
-          className="hidden md:absolute right-0 z-10 bottom-0"
+          className="hidden md:flex md:absolute right-0 z-10 bottom-0"
         />
         <Image
           src={vector1}
           alt="Vector"
-          className="hidden md:absolute left-0 z-10 bottom-0"
+          className="hidden md:flex md:absolute left-0 z-10 bottom-0"
         />
-        <div>
+        <div className="container mx-auto relative text-mainColor py-16 md:py-20">
           <div className="grid xl:grid-cols-2 gap-10">
             <div className="flex xl:hidden justify-center">
               <Image
